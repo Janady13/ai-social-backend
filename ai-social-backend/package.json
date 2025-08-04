@@ -1,0 +1,24 @@
+{
+  "name": "ai-social-backend",
+  "version": "1.0.0",
+  "description": "AI-driven social automation backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "axios": "^1.6.8",
+    "sharp": "^0.33.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "twitter-api-v2": "^1.17.2",
+    "instagram-private-api": "^1.51.0",
+    "googleapis": "^133.0.0",
+    "tiktok-api": "^1.0.27",
+    "node-linkedin": "^0.5.4",
+    "openai": "^4.24.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "dotenv": "^16.4.5"
+  }
+}
